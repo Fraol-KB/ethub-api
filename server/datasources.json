@@ -13,5 +13,12 @@
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
+  },
+  "files": {
+    "name": "files",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage",
+    "maxFileSize": "52428800"
   }
 }
