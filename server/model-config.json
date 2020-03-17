@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "janoMDB"
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "janoMDB",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "janoMDB",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "janoMDB",
+    "dataSource": "db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "janoMDB",
+    "dataSource": "db",
     "public": false
   }
 }
