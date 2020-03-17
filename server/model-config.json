@@ -70,5 +70,5 @@
   "Storage": {
     "dataSource": "files",
     "public": true
-  },
+  }
 }
