@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "janoMDB": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://root:12345@jano-phhyb.mongodb.net/janodb?authSource=admin&replicaSet=jano-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true",
+    "database": "",
+    "password": "",
+    "name": "janoMDB",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

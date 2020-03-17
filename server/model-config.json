@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "janoMDB"
+  },
+  "AccessToken": {
+    "dataSource": "janoMDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "janoMDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "janoMDB",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "janoMDB",
+    "public": false
+  }
+}
