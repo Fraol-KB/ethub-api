@@ -38,5 +38,9 @@
   "account": {
     "dataSource": "janoMDB",
     "public": true
+  },
+  "ClientAccount": {
+    "dataSource": "janoMDB",
+    "public": true
   }
 }

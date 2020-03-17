@@ -1,0 +1,66 @@
+{
+  "name": "ClientAccount",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "coverPics": {
+      "type": [
+        "string"
+      ]
+    },
+    "profilePic": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "hasChildren": {
+      "type": "boolean",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "phone1": {
+      "type": "string",
+      "required": false
+    },
+    "phone2": {
+      "type": "string",
+      "required": false
+    },
+    "website": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "address": {
+      "type": "string",
+      "required": false
+    },
+    "pobox": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    
+  },
+  "acls": [],
+  "methods": {}
+}
