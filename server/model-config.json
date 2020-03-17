@@ -42,5 +42,29 @@
   "ClientAccount": {
     "dataSource": "janoMDB",
     "public": true
+  },
+  "Post": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "Subscription": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "UserDetails": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "SubClient": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "ClientFiles": {
+    "dataSource": "janoMDB",
+    "public": true
   }
 }

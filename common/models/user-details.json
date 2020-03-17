@@ -1,0 +1,50 @@
+{
+  "name": "UserDetails",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "verified": {
+      "type": "boolean"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "date_created": {
+      "type": "date",
+      "required": true,
+      "default": "$now"
+    },
+    "date_activated": {
+      "type": "date",
+      "required": false
+    },
+    "date_deactivated": {
+      "type": "date",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "users": {
+      "type": "hasOne",
+      "model": "User",
+      "foreignKey": "detail_id",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "subscriptions": {
+      "type": "hasMany",
+      "model": "Subscription",
+      "foreignKey": "subscriber_id",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

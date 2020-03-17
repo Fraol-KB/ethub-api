@@ -59,7 +59,54 @@
   },
   "validations": [],
   "relations": {
-    
+    "users": {
+      "type": "hasOne",
+      "model": "User",
+      "foreignKey": "client_id",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "reviews": {
+      "type": "hasMany",
+      "model": "Review",
+      "foreignKey": "client_id",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "children": {
+      "type": "hasMany",
+      "model": "ClientAccount",
+      "foreignKey": "parent_id",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "subscribers": {
+      "type": "hasMany",
+      "model": "Subscription",
+      "foreignKey": "client_id",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "subClients": {
+      "type": "hasMany",
+      "model": "SubClient",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "clientFiles": {
+      "type": "hasMany",
+      "model": "ClientFiles",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
   },
   "acls": [],
   "methods": {}
