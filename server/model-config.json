@@ -66,9 +66,5 @@
   "ClientFiles": {
     "dataSource": "janoMDB",
     "public": true
-  },
-  "Storage": {
-    "dataSource": "files",
-    "public": true
   }
 }
