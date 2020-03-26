@@ -70,5 +70,13 @@
   "Storage": {
     "dataSource": "files",
     "public": true
+  },
+  "comment": {
+    "dataSource": "janoMDB",
+    "public": true
+  },
+  "namelist": {
+    "dataSource": "janoMDB",
+    "public": true
   }
 }
